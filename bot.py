@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import time , requests  , random
 
 load_dotenv()
-TOKEN = "Njk5NTk5MzkwNDMxNzcyNzMz" + ".XpWutA.0nvimxpX" + "AW7uNlwRD"+"wW1aok8Zvw"
+TOKEN = os.getenv('DISCORD_TOKEN')
 
 bot = commands.Bot(command_prefix='^')
 
