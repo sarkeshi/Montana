@@ -98,4 +98,4 @@ async def recent(ctx):
         await ctx.send(response)
 
 bot.run(TOKEN)
-soroush khar
+soroush khare boz
